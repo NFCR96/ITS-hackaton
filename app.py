@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title('Bienvenido a Sexuapp')
-page_names = '['mujer', 'hombre']
+page_names = ['mujer', 'hombre']
 page = st.ratio('Sexo', page_names)
 st.write("**a conitnuacion selecciona lo siguiente:**",page)
 
