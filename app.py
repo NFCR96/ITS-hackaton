@@ -5,5 +5,10 @@ st.title('Bienvenido a Sexuapp')
 option = st.selectbox(
      'Cual es tu sexo biologico',
      ('hombre', 'mujer',))
-st.button.form_submit_button(label = "submit this form")    
+if hombre:
+     nested_btn = st.button("button nested in selectbox")
+     
+     if nested_btn: 
+          st.write(":cake:*25)
+                   
 
