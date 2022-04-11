@@ -2,12 +2,16 @@ import streamlit as st
 
 st.title('Bienvenido a Sexuapp')
 
-import pandas as pd
+st.title('Counter Example using Callbacks')
+if 'count' not in st.session_state:
+    st.session_state.count = 0
 
-df = pd.DataFrame({
-    'first column': [hombre, mujer],
-    'second column':  [hinchazon, enrojeciemnto, picazon]
-    })
+def increment_counter():
+    st.session_state.count += 1
+
+st.button('Increment', on_click=increment_counter)
+
+st.write('Count = ', st.session_state.count)
 
 
 
