@@ -5,12 +5,12 @@ st.title('Bienvenido a Sexuapp')
 import pandas as pd
 
 df = pd.DataFrame({
-    'first column': [1, 2, 3, 4],
-    'second column': [10, 20, 30, 40]
+    'first column': [hombre, mujer],
+    'second column': , [hinchazon, enrojeciemnto, picazon]
     })
 
 option = st.selectbox(
-    'Which number do you like best?',
+    'selecciona tu sexo?',
      df['first column'])
 
 'You selected: ', option
