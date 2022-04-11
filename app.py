@@ -2,13 +2,11 @@
 import streamlit as st
 st.title('Bienvenido a Sexuapp')
 
-option = st.selectbox(
-     'Cual es tu sexo biologico',
-     ('hombre', 'mujer',))
-if hombre:
-     nested_btn = st.button("button nested in selectbox")
+genre = st.radio(
+     "cual es tu sexo biologico?",
+     ('Mujer', 'Hombre'))
+if biologico == 'Hombre':
+     st.button('haz presentado alguno de estos sintomas?')
      
-     if nested_btn: 
-          st.write(":cake:"*25)
                    
 
