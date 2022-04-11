@@ -9,6 +9,6 @@ if hombre:
      nested_btn = st.button("button nested in selectbox")
      
      if nested_btn: 
-          st.write(":cake:^25)
+          st.write(":cake:"*25)
                    
 
