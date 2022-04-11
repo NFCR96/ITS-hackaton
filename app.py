@@ -9,8 +9,8 @@ b = st.selectbox(
      ('hinchazon', 'picazon'))
 # Input fields
 if st.button("submit"):
-     result = herpes
-      st.experimental_set_query_params(my_saved_result=result)  # Save value
+     result = a+b
+     
 
 
   
