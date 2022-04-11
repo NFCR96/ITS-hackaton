@@ -1,11 +1,15 @@
 import streamlit as st
 
 st.title('Bienvenido a Sexuapp')
-if 'my_button' not in st.session_state:
-    st.session_state.my_button = True
-    # Streamlit will raise an Exception on trying to set the state of button
+if "button_clicked" not in st.session_state:    
+    st.session_state.button_clicked = False
 
-st.button('Submit', key='my_button')
+if (    
+st.button("Open next part")     
+or st.session_state.button_clicked   
+ ):    
+    if st.button("Pop out balloons"):    
+        st.balloons()
 
 	
 
