@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title('Bienvenido a Sexuapp')
-button1 = st.button('Check 1')
+button1 = st.button('Sexo')
 
 if st.session_state.get('button') != True:
 
