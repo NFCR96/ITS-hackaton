@@ -5,6 +5,9 @@ option = st.selectbox(
      'cual es tu sexo biologico?',
      ('hombre', 'mujer'))
 
-st.selectbox('You selected:', hombre)
+if hombre:
+     option = st.selectbox(
+     'sintomas?',
+     ('comezon', 'hinchazon'))
                    
 
