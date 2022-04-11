@@ -1,6 +1,6 @@
 
 import streamlit as st
-import SessionState
+import SessionState as ss
 
 st.title('Bienvenido a Sexuapp')
 button1 = st.empty()
