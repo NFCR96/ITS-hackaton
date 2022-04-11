@@ -11,13 +11,13 @@ if st.session_state['button'] == True:
 
     st.write("button1 is True")
 
-    if st.button('Check 2'):
+    if st.button('Hombre'):
 
         st.write("Hello, it's working")
 
         st.session_state['button'] = False
 
-        st.checkbox('Reload')
+        st.checkbox('Hinchazon', 'dolor', 'llagas', 'berrugas')
 
 	
 
