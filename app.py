@@ -9,9 +9,7 @@ df = pd.DataFrame({
     'second column':  [hinchazon, enrojeciemnto, picazon]
     })
 
-option = st.selectbox(
-    'selecciona tu sexo?',
-     df['first column'])
+
 
 
 	
