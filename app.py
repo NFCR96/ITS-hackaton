@@ -18,11 +18,7 @@ if st.session_state['button'] == True:
         st.session_state['button'] = False
 
         st.checkbox('Hinchazon', 'dolor', 'llagas', 'berrugas')
-	if st.session_state.get('hinchazon') != True:
-
-    st.session_state['hinchazon'] = checkbox
-
-if st.session_state['checkbox'] == True:
+	
 
 	
 
