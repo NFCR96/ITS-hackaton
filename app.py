@@ -15,8 +15,7 @@ b = st.st.selectbox(
      'sintomas?',
      ('hinchazon', 'picazon'))
 
-# Perform an operation, and save its result
-if st.selectbox("hombre"):
+
   
     
 
