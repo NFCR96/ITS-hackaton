@@ -6,7 +6,7 @@ import pandas as pd
 
 df = pd.DataFrame({
     'first column': [hombre, mujer],
-    'second column': , [hinchazon, enrojeciemnto, picazon]
+    'second column':  [hinchazon, enrojeciemnto, picazon]
     })
 
 option = st.selectbox(
