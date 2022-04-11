@@ -1,6 +1,13 @@
 import streamlit as st
 
 st.title('Bienvenido a Sexuapp')
+def show_names(name):
+	if name == "Roy":
+		list1 = ['Riya','Ananya','Tanya','Sanya','Nikita']
+	elif name == "Sen":
+		list1 = ['Tarun','Arun','Bob','Karan','John']
+	
+	return list1
 import SessionState
 import naming as n
 
@@ -25,7 +32,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
 
                    
