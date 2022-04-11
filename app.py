@@ -5,7 +5,7 @@ page_names = ['mujer', 'hombre']
 page = st.ratio('Sexo', page_names)
 st.write("**a conitnuacion selecciona lo siguiente:**",page)
 
-if page = 'checkbox':
+if page ='checkbox':
      st.subheader('welcome to sexuapp!')
      st.write("nice to see you! :wave:")
      check = st.checkbox("click here")
