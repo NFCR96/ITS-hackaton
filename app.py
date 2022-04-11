@@ -1,41 +1,30 @@
 import streamlit as st
 
 st.title('Bienvenido a Sexuapp')
-button1 = st.button('Sexo')
+import SessionState
+import naming as n
 
-if st.session_state.get('button') != True:
+def inp_det(type):
+    if type == 'source':
+        st.write('Enter name (Roy/Sen)')
+        name = st.text_input('Source name')
+    elif type == 'destination':
+        st.write('Enter name (Roy/Sen)')
+        name = st.text_input('Destination name')
+    return name
+    
+def main():
+    name = inp_det('source')
+    session_state = SessionState.get(name="", button_sent=False)
+    button_sent = st.button("SUBMIT")
+    if button_sent or session_state.button_sent: # <-- first time is button interaction, next time use state to go to multiselect
+        session_state.button_sent = True
+        listnames = n.show_names(name)
+        selectednames=st.multiselect('Select your names',listnames)
+        st.write(selectednames)
 
-    st.session_state['button'] = button1
-
-if st.session_state['button'] == True:
-
-    st.write("button1 is True")
-
-    if st.button('Hombre'):
-
-        st.write("Hello, it's working")
-
-        st.session_state['button'] = False
-
-        st.checkbox('Hinchazon', 'dolor', 'llagas', 'berrugas')
-	
-	
-options = st.multiselect(
-     'What are your favorite colors',
-     ['Green', 'Yellow', 'Red', 'Blue'],
-     ['Yellow', 'Red'])
-if st.session_state.get('multiselect') != True:
-	 st.session_state['multiselect'] = options
-		if st.session_state['multiselect'] == True:
-			st.write("options is True")
-			 if st.multiselect('Hombre', 'mujer'):
-
-        st.write("Hello, it's working")
-
-        st.session_state['multiselect'] = False
-
-        st.multiselect('Hinchazon', 'dolor', 'llagas', 'berrugas')
-	
+if __name__ == "__main__":
+    main()
 
 
 
