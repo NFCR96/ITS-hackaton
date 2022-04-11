@@ -1,7 +1,11 @@
 import streamlit as st
 
 st.title('Bienvenido a Sexuapp')
-st.multiselect('Multiselect', [hombre,mujer])
+
+st.write('Selecciona tu sexo')
+
+result = st.selectbox('Select', [Hombre,Mujer])
+st.selectbox('Select', [Hombre,Mujer])
 	
 
 
