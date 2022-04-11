@@ -13,7 +13,7 @@ option = st.selectbox(
     'selecciona tu sexo?',
      df['first column'])
 
-'You selected: ', option
+
 	
 
 
