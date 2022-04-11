@@ -3,10 +3,10 @@ import streamlit as st
 st.title('Bienvenido a Sexuapp')
 
 st.write('Selecciona tu sexo')
-
-result = st.selectbox('Select', [Hombre,Mujer])
-if hombre:
-	st.selectbox('Select', [Hombre,Mujer])
+page_names = ['hombre', 'mujer']
+page = st.ratio('selecciona un sexo',page_names)
+if page = 'hombre':
+	st.button('good?')
 
 	
 
