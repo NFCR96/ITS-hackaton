@@ -1,5 +1,6 @@
 
 import streamlit as st
 st.title('Bienvenido a Sexuapp')
-st.button('sexo biologico?')
-st.write('masculino')
+st.write('sexo biologico?')
+ st.button('masculino')
+ st.button('femenino')
