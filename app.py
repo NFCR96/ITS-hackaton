@@ -2,17 +2,13 @@ import streamlit as st
 
 st.title('Bienvenido a Sexuapp')
 
-st.title('Counter Example using Callbacks with args')
+st.title('Counter Example')
 if 'count' not in st.session_state:
     st.session_state.count = 0
 
-increment_value = st.number_input('Enter a value', value=0, step=1)
-
-def increment_counter(increment_value):
-    st.session_state.count += increment_value
-
-increment = st.button('Increment', on_click=increment_counter,
-    args=(increment_value, ))
+increment = st.button('Increment')
+if increment:
+    st.session_state.count += 1
 
 st.write('Count = ', st.session_state.count)
 
