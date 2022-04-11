@@ -1,15 +1,24 @@
 import streamlit as st
 
 st.title('Bienvenido a Sexuapp')
-if "button_clicked" not in st.session_state:    
-    st.session_state.button_clicked = False
+cb1 = st.checkbox('a')
 
-if (    
-st.button("Open next part")     
-or st.session_state.button_clicked   
- ):    
-    if st.button("Pop out balloons"):    
-        st.balloons()
+empty = st.empty()
+empty.checkbox('b')
+
+if cb1:
+    empty.checkbox('b', True)
+Or
+
+import streamlit as st
+
+button = st.button('a')
+
+empty = st.empty()
+empty.checkbox('c')
+
+if button:
+    empty.checkbox('c', True)
 
 	
 
