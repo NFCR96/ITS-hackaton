@@ -2,6 +2,9 @@ import streamlit as st
 
 st.title('Bienvenido a Sexuapp')
 
+# Core Pkgs
+import streamlit as st 
+
 # Utils
 import numpy as np 
 import joblib
@@ -73,7 +76,6 @@ def run_ml():
 		st.info("Predicted Purchase")
 		st.write("Purchased:${}".format(prediction[0]))
 		st.balloons()
-
 
   
     
