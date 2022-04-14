@@ -5,8 +5,8 @@ if 'num' not in st.session_state:
     st.session_state.num = 0
 
 
-choices1 = ['no answer', 'manila', 'tokyo', 'bangkok']
-choices2 = ['no answer', 'thailand', 'japan', 'philippines']
+choices1 = ['no answer', 'comezon', 'picazon', 'enrijecimiento']
+choices2 = ['no answer', 'enrojecimiento', 'ardor', 'dolor']
 
 qs1 = [('What is the capital of Japan', choices1),
     ('What is the capital of Philippines', choices1),
