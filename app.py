@@ -8,7 +8,7 @@ if 'num' not in st.session_state:
 choices1 = ['no answer', 'Hombre', 'Mujer']
 choices2 = ['no answer', 'No', 'si']
 choices3 = ['No', 'Si']
-choices4 = ['Llagas', 'Hinchazon', 'Berrugas', 'Inflamacion o enrojecimiento']
+choices4 = ['Llagas', 'Hinchazon', 'Verrugas', 'Inflamacion o enrojecimiento']
 choices5 = ['Indoloras', 'dolorosas', 'No presento']
 choices6 = ['3 semanas', '2 semanas', '1 mes']
 
@@ -40,10 +40,10 @@ def main():
         with placeholder.form(key=str(num)):
             st.radio(qs1[num][0], key=num+1, options=qs1[num][1])
             st.radio(qs2[num][0], key=num+1, options=qs2[num][1])  
-            st.radio(qs3[num][0], key=num+1, options=qs1[num][1])
-            st.radio(qs4[num][0], key=num+1, options=qs1[num][1])
-            st.radio(qs5[num][0], key=num+1, options=qs1[num][1])
-            st.radio(qs6[num][0], key=num+1, options=qs1[num][1])
+            st.radio(qs3[num][0], key=num+1, options=qs3[num][1])
+            st.radio(qs4[num][0], key=num+1, options=qs4[num][1])
+            st.radio(qs5[num][0], key=num+1, options=qs5[num][1])
+            st.radio(qs6[num][0], key=num+1, options=qs6[num][1])
                       
             if st.form_submit_button():
                 st.session_state.num += 1
