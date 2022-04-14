@@ -28,7 +28,7 @@ qs4 = [('Haz presentado alguno de estos sintomas?', choices4),
 qs5 = [('En caso de presentar llagas, estas son...?', choices5),
     ('What country has the highest population?', choices5),
     ('What country has the highest oil deposits?', choices5)]
-qs5 = [('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices6),
+qs6 = [('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices6),
     ('What country has the highest population?', choices6),
     ('What country has the highest oil deposits?', choices6)]
 
