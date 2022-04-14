@@ -34,12 +34,16 @@ qs5 = [('Cual consideras fue el lapso entre la relacion sexual sospechosa y la p
 
 
 def main():
-    for _, _ in zip(qs1, qs2): 
+    for _, _ in zip(qs1, qs2, qs3, qs4, qs5, qs6): 
         placeholder = st.empty()
         num = st.session_state.num
         with placeholder.form(key=str(num)):
             st.radio(qs1[num][0], key=num+1, options=qs1[num][1])
-            st.radio(qs2[num][0], key=num+1, options=qs2[num][1])          
+            st.radio(qs2[num][0], key=num+1, options=qs2[num][1])  
+            st.radio(qs3[num][0], key=num+1, options=qs1[num][1])
+            st.radio(qs4[num][0], key=num+1, options=qs1[num][1])
+            st.radio(qs5[num][0], key=num+1, options=qs1[num][1])
+            st.radio(qs6[num][0], key=num+1, options=qs1[num][1])
                       
             if st.form_submit_button():
                 st.session_state.num += 1
