@@ -4,37 +4,41 @@ st.title('Bienvenido a Sexuapp')
 if 'num' not in st.session_state:
     st.session_state.num = 0
 
+choices1 = ['Cisgénero', 'Crossdresser', 'Drag king', 'Drag queen', 'Disforia de género', 'Fluidez de género', 'género no binario', 'Genderqueer ', 'Intersexual', 'Transgénero', 'Hombre transgénero', 'Mujer transgénero ', 'Gay', 'Inconformidad de género', 'Lesbiana', 'Intersexual', 'Poliamoroso', 'Femenino', 'Masculino', 'Chico', 'Chica', 'Tomboy', 'Hombre joven', 'Mujer joven', 'Hombre transexual', 'Mujer transexual',
+ 'Bigénero', 'Intersexual', 'Sin género', 'No estoy seguro', 'Prefiero no decir', 'Otro']
+choices2 = ['no answer', 'Hombre', 'Mujer']
+choices3 = ['no answer', 'No', 'si']
+choices4 = ['No', 'Si']
+choices5 = ['Llagas', 'Hinchazon', 'Verrugas', 'Inflamacion o enrojecimiento']
+choices6 = ['Indoloras', 'dolorosas', 'No presento']
+choices7 = ['3 semanas', '2 semanas', '1 mes']
 
-choices1 = ['no answer', 'Hombre', 'Mujer']
-choices2 = ['no answer', 'No', 'si']
-choices3 = ['No', 'Si']
-choices4 = ['Llagas', 'Hinchazon', 'Verrugas', 'Inflamacion o enrojecimiento']
-choices5 = ['Indoloras', 'dolorosas', 'No presento']
-choices6 = ['3 semanas', '2 semanas', '1 mes']
 
-
-qs1 = [('Sexo biologico?', choices1),
+qs1 = [('Cual es tu genero?', choices1),
     ('sexo biologico', choices1),
     ('sexo biologico', choices1)]
-qs2 = [('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices2),
-    ('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices2),
-    ('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices2)]
-qs3 = [('Haz practicado sexo sin condon?', choices3),
-    ('Haz practicado sexo sin condon?', choices3),
-    ('Haz practicado sexo sin condon?', choices3)]
-qs4 = [('Haz presentado alguno de estos sintomas?', choices4),
-    ('Haz presentado alguno de estos sintomas?', choices4),
-    ('Haz presentado alguno de estos sintomas?', choices4)]
-qs5 = [('En caso de presentar llagas, estas son...?', choices5),
-    ('En caso de presentar llagas, estas son...?', choices5),
-    ('En caso de presentar llagas, estas son...?', choices5)]
-qs6 = [('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices6),
-    ('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices6),
-    ('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices6)]
+qs2 = [('Cual fue tu sexo asignado al nacer?', choices2),
+    ('sexo biologico', choices2),
+    ('sexo biologico', choices2)]
+qs3 = [('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices3),
+    ('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices3),
+    ('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices3)]
+qs4 = [('Haz practicado sexo sin condon?', choices4),
+    ('Haz practicado sexo sin condon?', choices4),
+    ('Haz practicado sexo sin condon?', choices4)]
+qs5 = [('Haz presentado alguno de estos sintomas?', choices5),
+    ('Haz presentado alguno de estos sintomas?', choices5),
+    ('Haz presentado alguno de estos sintomas?', choices5)]
+qs6 = [('En caso de presentar llagas, estas son...?', choices6),
+    ('En caso de presentar llagas, estas son...?', choices6),
+    ('En caso de presentar llagas, estas son...?', choices6)]
+qs7 = [('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices7),
+    ('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices7),
+    ('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices7)]
 
 
 def main():
-    for _, _, _, _, _, _ in zip(qs1, qs2, qs3, qs4, qs5, qs6): 
+    for _, _, _, _, _, _, _ in zip(qs1, qs2, qs3, qs4, qs5, qs6, qs7): 
         placeholder = st.empty()
         num = st.session_state.num
         with placeholder.form(key=str(num)):
@@ -44,6 +48,7 @@ def main():
             st.radio(qs4[num][0], key=num+1, options=qs4[num][1])
             st.radio(qs5[num][0], key=num+1, options=qs5[num][1])
             st.radio(qs6[num][0], key=num+1, options=qs6[num][1])
+            st.radio(qs7[num][0], key=num+1, options=qs6[num][1])
                       
             if st.form_submit_button():
                 st.session_state.num += 1
