@@ -16,21 +16,21 @@ choices6 = ['3 semanas', '2 semanas', '1 mes']
 qs1 = [('Sexo biologico?', choices1),
     ('sexo biologico', choices1),
     ('sexo biologico', choices1)]
-qs2 = [('haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices2),
-    ('What country has the highest population?', choices2),
-    ('What country has the highest oil deposits?', choices2)]
-qs3 = [('Haz practicado sexo sin condon? ?', choices3),
-    ('What country has the highest population?', choices3),
-    ('What country has the highest oil deposits?', choices3)]
+qs2 = [('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices2),
+    ('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices2),
+    ('Haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices2)]
+qs3 = [('Haz practicado sexo sin condon?', choices3),
+    ('Haz practicado sexo sin condon?', choices3),
+    ('Haz practicado sexo sin condon?', choices3)]
 qs4 = [('Haz presentado alguno de estos sintomas?', choices4),
-    ('What country has the highest population?', choices4),
-    ('What country has the highest oil deposits?', choices4)]
+    ('Haz presentado alguno de estos sintomas?', choices4),
+    ('Haz presentado alguno de estos sintomas?', choices4)]
 qs5 = [('En caso de presentar llagas, estas son...?', choices5),
-    ('What country has the highest population?', choices5),
-    ('What country has the highest oil deposits?', choices5)]
+    ('En caso de presentar llagas, estas son...?', choices5),
+    ('En caso de presentar llagas, estas son...?', choices5)]
 qs6 = [('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices6),
-    ('What country has the highest population?', choices6),
-    ('What country has the highest oil deposits?', choices6)]
+    ('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices6),
+    ('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices6)]
 
 
 def main():
