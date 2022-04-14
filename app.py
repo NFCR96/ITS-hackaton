@@ -6,12 +6,12 @@ if 'num' not in st.session_state:
 
 
 choices1 = ['no answer', 'comezon', 'picazon', 'enrijecimiento']
-choices2 = ['no answer', 'enrojecimiento', 'ardor', 'dolor']
+choices2 = ['no answer', 'No', 'si']
 
-qs1 = [('What is the capital of Japan', choices1),
-    ('What is the capital of Philippines', choices1),
-    ('What is the capital of Thailand', choices1)]
-qs2 = [('What country has the highest life expectancy?', choices2),
+qs1 = [('Sexo biologico?', choices1),
+    ('sexo biologico', choices1),
+    ('sexo biologico', choices1)]
+qs2 = [('haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices2),
     ('What country has the highest population?', choices2),
     ('What country has the highest oil deposits?', choices2)]
 
