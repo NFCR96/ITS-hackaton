@@ -34,7 +34,7 @@ qs6 = [('Cual consideras fue el lapso entre la relacion sexual sospechosa y la p
 
 
 def main():
-    for _, _ in zip(qs1, qs2, qs3, qs4, qs5, qs6): 
+    for _, _, _, _, _, _ in zip(qs1, qs2, qs3, qs4, qs5, qs6): 
         placeholder = st.empty()
         num = st.session_state.num
         with placeholder.form(key=str(num)):
