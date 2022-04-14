@@ -5,13 +5,30 @@ if 'num' not in st.session_state:
     st.session_state.num = 0
 
 
-choices1 = ['no answer', 'comezon', 'picazon', 'enrijecimiento']
+choices1 = ['no answer', 'Hombre', 'Mujer']
 choices2 = ['no answer', 'No', 'si']
+choices3 = ['No', 'Si']
+choices4 = ['Llagas', 'Hinchazon', 'Berrugas', 'Inflamacion o enrojecimiento']
+choices5 = ['Indoloras', 'dolorosas', 'No presento']
+choices6 = ['3 semanas', '2 semanas', '1 mes']
+
 
 qs1 = [('Sexo biologico?', choices1),
     ('sexo biologico', choices1),
     ('sexo biologico', choices1)]
 qs2 = [('haz practicado alguna vez sexo sin metodos anticonceptivos fisicos como  el condon?', choices2),
+    ('What country has the highest population?', choices2),
+    ('What country has the highest oil deposits?', choices2)]
+qs3 = [('Haz practicado sexo sin condon? ?', choices2),
+    ('What country has the highest population?', choices2),
+    ('What country has the highest oil deposits?', choices2)]
+qs4 = [('Haz presentado alguno de estos sintomas?', choices2),
+    ('What country has the highest population?', choices2),
+    ('What country has the highest oil deposits?', choices2)]
+qs5 = [('En caso de presentar llagas, estas son...?', choices2),
+    ('What country has the highest population?', choices2),
+    ('What country has the highest oil deposits?', choices2)]
+qs5 = [('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices2),
     ('What country has the highest population?', choices2),
     ('What country has the highest oil deposits?', choices2)]
 
