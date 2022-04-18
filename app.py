@@ -12,14 +12,14 @@ choices4 = ['No', 'Si']
 choices5 = ['Llagas', 'Hinchazon', 'Verrugas', 'Inflamacion, enrojecimiento o irritacion (Dentro o fuera de los genitales)']
 choices6 = ['Si cuento con ardor', 'No cuento con ardor']
 choices7 = ['Pene', 'Testiculos', 'No presento este sintoma']
-choices8 = ['Al Orinar', 'Durante el acto sexual', 'Despues de eyacular', 'No presentado ardor']
+choices8 = ['Al Orinar', 'Durante el acto sexual', 'Despues de eyacular', 'No he presentado ardor']
 choices9 = ['Si', 'No']
 choices10 = ['Indoloras', 'dolorosas', 'No presento este sintoma']
 choices11 = ['Desaparecieron solas,' 'Desaparecieron con algun Tratamiento', 'No presente Llagas']
 choices12 = ['Si', 'No', 'No presente Llagas']
 choices13 = ['Secrecion (Pene)', 'Secrecion Vagina']
 choices14 = ['Sexo Pene-Vagina', 'Sexo Vagina-Vagina', 'Sexo Anal', 'Sexo Oral']
-choices15 = ['3 semanas', '2 semanas', '1 mes']
+choices15 = ['Aproximadamente 2 a 7 dias posteriores', 'Aproximadamente entre 10-90 dias despues', 'Aproximadamente entre 4-28 dias despues']
 
 
 qs1 = [('Cual es tu genero?', choices1),
