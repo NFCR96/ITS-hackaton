@@ -43,9 +43,9 @@ qs6 = [('Haz presentado ardor en el pene?', choices6),
 qs7 = [('La hinchazon fue en?', choices7),
     ('La hinchazon fue en?', choices7),
     ('La hinchazon fue en?', choices7)]
-qs8 = [('En caso de haber presentado ardor en el pene, tu...?', choices8),
-    ('En caso de haber presentado ardor en el pene, tu...?', choices8),
-    ('En caso de haber presentado ardor en el pene, tu...?', choices8)]
+qs8 = [('En caso de haber presentado ardor en el pene, el ardor fue...?', choices8),
+    ('En caso de haber presentado ardor en el pene, el ardor fue...?', choices8),
+    ('En caso de haber presentado ardor en el pene, el ardor fue...?', choices8)]
 qs9 = [('¿Presentas Llagas?', choices9),
     ('¿Presentas Llagas?', choices9),
     ('¿Presentas Llagas?', choices9)]
