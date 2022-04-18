@@ -37,35 +37,35 @@ qs4 = [('Haz practicado sexo sin condon?', choices4),
 qs5 = [('Haz presentado alguno de estos sintomas?', choices5),
     ('Haz presentado alguno de estos sintomas?', choices5),
     ('Haz presentado alguno de estos sintomas?', choices5)]
-qs6 = [('Haz presentado ardor en el pene?', choices5),
-    ('Haz presentado ardor en el pene?', choices5),
-    ('Haz presentado ardor en el pene?', choices5)]
-qs7 = [('La hinchazon fue en?', choices5),
-    ('La hinchazon fue en?', choices5),
-    ('La hinchazon fue en?', choices5)]
-qs8 = [('Haz presentado ardor en los genitales?', choices6),
-    ('Haz presentado ardor en los genitales?', choices6),
-    ('Haz presentado ardor en los genitales?', choices6)]
-qs9 = [('¿Presentas Llagas?', choices6),
-    ('¿Presentas Llagas?', choices6),
-    ('¿Presentas Llagas?', choices6)]
-qs10 = [('En caso de presentar llagas, estas son...?', choices6),
-    ('En caso de presentar llagas, estas son...?', choices6),
-    ('En caso de presentar llagas, estas son...?', choices6)]
-qs11 = [('En caso de Haber presentado Llagas, estas...?', choices6),
-    ('En caso de Haber presentado Llagas, estas...?', choices6),
-    ('En caso de Haber presentado Llagas, estas...?', choices6)]
-qs12 = [('En caso de haber presentado Llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) despues de desaparecer (solas) presentaste sintomas como, Fiebre?, Dolor de Garganta, o Ganglios linfaticos inflados intermientemente durante este perido (Despues de la desaparicion)?', choices6),
-    ('En caso de haber presentado Llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) despues de desaparecer (solas) presentaste sintomas como, Fiebre?, Dolor de Garganta, o Ganglios linfaticos inflados intermientemente durante este perido (Despues de la desaparicion)?', choices6),
-    ('En caso de haber presentado Llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) despues de desaparecer (solas) presentaste sintomas como, Fiebre?, Dolor de Garganta, o Ganglios linfaticos inflados intermientemente durante este perido (Despues de la desaparicion)?', choices6)]
-qs13 = [('Haz presentado algun tipo de secrecion inusual en los genitales?', choices7),
-    ('Haz presentado algun tipo de secrecion inusual en los genitales?', choices7),
-    ('Haz presentado algun tipo de secrecion inusual en los genitales?', choices7)]
-qs14 = [('Como fue la practica sexual de la que sospechas pudiste haberte contagiado?', choices7),
-    ('Como fue la practica sexual de la que sospechaspudiste haberte contagiado?', choices7),
-    ('Como fue la practica sexual de la que sospechaspudiste haberte contagiado?', choices7)]
-qs15 = [('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices7),
-    ('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices7),
+qs6 = [('Haz presentado ardor en el pene?', choices6),
+    ('Haz presentado ardor en el pene?', choices6),
+    ('Haz presentado ardor en el pene?', choices6)]
+qs7 = [('La hinchazon fue en?', choices7),
+    ('La hinchazon fue en?', choices7),
+    ('La hinchazon fue en?', choices7)]
+qs8 = [('Haz presentado ardor en los genitales?', choices8),
+    ('Haz presentado ardor en los genitales?', choices8),
+    ('Haz presentado ardor en los genitales?', choices8)]
+qs9 = [('¿Presentas Llagas?', choices9),
+    ('¿Presentas Llagas?', choices9),
+    ('¿Presentas Llagas?', choices9)]
+qs10 = [('En caso de presentar llagas, estas son...?', choices10),
+    ('En caso de presentar llagas, estas son...?', choices10),
+    ('En caso de presentar llagas, estas son...?', choices10)]
+qs11 = [('En caso de Haber presentado Llagas, estas...?', choices11),
+    ('En caso de Haber presentado Llagas, estas...?', choices11),
+    ('En caso de Haber presentado Llagas, estas...?', choices11)]
+qs12 = [('En caso de haber presentado Llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) despues de desaparecer (solas) presentaste sintomas como, Fiebre?, Dolor de Garganta, o Ganglios linfaticos inflados intermientemente durante este perido (Despues de la desaparicion)?', choices12),
+    ('En caso de haber presentado Llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) despues de desaparecer (solas) presentaste sintomas como, Fiebre?, Dolor de Garganta, o Ganglios linfaticos inflados intermientemente durante este perido (Despues de la desaparicion)?', choices12),
+    ('En caso de haber presentado Llagas, y estas hubiesen desaparecido solas, en un periodo de un año (aproximadamente) despues de desaparecer (solas) presentaste sintomas como, Fiebre?, Dolor de Garganta, o Ganglios linfaticos inflados intermientemente durante este perido (Despues de la desaparicion)?', choices12)]
+qs13 = [('Haz presentado algun tipo de secrecion inusual en los genitales?', choices13),
+    ('Haz presentado algun tipo de secrecion inusual en los genitales?', choices13),
+    ('Haz presentado algun tipo de secrecion inusual en los genitales?', choices13)]
+qs14 = [('Como fue la practica sexual de la que sospechas pudiste haberte contagiado?', choices14),
+    ('Como fue la practica sexual de la que sospechaspudiste haberte contagiado?', choices14),
+    ('Como fue la practica sexual de la que sospechaspudiste haberte contagiado?', choices14)]
+qs15 = [('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices15),
+    ('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices15),
     ('Cual consideras fue el lapso entre la relacion sexual sospechosa y la precencia de estos sintomas?', choices7)]
 
 
